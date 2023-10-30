@@ -46,6 +46,7 @@ let htmlContent = '';
 newData.forEach(item => {
     htmlContent += `
         <div>
+                <img src="${item.LargeImage}" alt="Large Image">
             <p>ID: ${item.Id}</p>
             <p>Part Number: ${item.PartNumber}</p>
             <p>Manufacturer Name: ${item.ManufacturerName}</p>
@@ -57,7 +58,7 @@ newData.forEach(item => {
             <p>UOM: ${item.UOM}</p>
             <p>Rohs: ${item.Rohs}</p>
             <p>Data Sheet Link: <a href="${item.DataSheetLink}" target="_blank">${item.DataSheetLink}</a></p>
-            <p>Large Image: <img src="${item.LargeImage}" alt="Large Image"></p>
+
             <p>Description: ${item.Description}</p>
             <br>
          
