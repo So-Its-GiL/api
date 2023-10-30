@@ -60,9 +60,9 @@ newData.forEach(item => {
             <p>Large Image: <img src="${item.LargeImage}" alt="Large Image"></p>
             <p>Description: ${item.Description}</p>
             <br>
-          <div class="button">
-            <a href = "mailto: mailto:aspeed-order@aspeedelectronics.com">Request A Quote</a>
-                 </div>
+         
+            <a href = "mailto: mailto:aspeed-order@aspeedelectronics.com" class="button">Request A Quote</a>
+                
         </div>
         <hr>
     `;
