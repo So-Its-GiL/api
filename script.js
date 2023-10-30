@@ -59,6 +59,10 @@ newData.forEach(item => {
             <p>Data Sheet Link: <a href="${item.DataSheetLink}" target="_blank">${item.DataSheetLink}</a></p>
             <p>Large Image: <img src="${item.LargeImage}" alt="Large Image"></p>
             <p>Description: ${item.Description}</p>
+            <br>
+          <div class="button">
+            <a href = "mailto: mailto:aspeed-order@aspeedelectronics.com">Request A Quote</a>
+                 </div>
         </div>
         <hr>
     `;
