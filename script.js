@@ -1,23 +1,5 @@
 // Your JSON object
-const json = {
-    "Id": "56709726",
-    "PartNumber": "0",
-    "ManufacturerName": "BEL/CINCH CONNECTIVITY/INDUSTRIAL",
-    "LeadTime": "10",
-    "InventoryList": [],
-    "MinOrderQuantity": "1",
-    "StandardPackQuantity": "1",
-    "StockQuantity": 0,
-    "HTS": null,
-    "UOM": "EA",
-    "Rohs": null,
-    "ECCN": null,
-    "DataSheetLink": "null",
-    "LargeImage": "null",
-    "Description": "null",
-    "PriceList": []
-},
-      {
+const json =     {
         "Id": "12246053",
         "PartNumber": "050671-000",
         "ManufacturerName": "TE CONNECTIVITY / RAYCHEM",
@@ -34,13 +16,14 @@ const json = {
         "LargeImage": "https://www.te.com/catalog/common/images/PartImages/prso1solderslve.jpg",
         "Description": "null",
         "PriceList": []
-    };
+    },
 
 // Get the output element from the HTML document
 const outputElement = document.getElementById("output");
 
 // Create HTML content using the values from the JSON object
 const htmlContent = `
+  <img src="${LargeImage}" alt="Product Image" />
     <p>ID: ${json.Id}</p>
     <p>Part Number: ${json.PartNumber}</p>
     <p>Manufacturer Name: ${json.ManufacturerName}</p>
